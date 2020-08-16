@@ -14,6 +14,8 @@ images:
     caption: man
   - image: child.jpg
     caption: child
+  - image: testing.png
+    caption: testing
 image: images/feature2/gallery.png
 ---
 

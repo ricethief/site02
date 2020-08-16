@@ -1,6 +1,6 @@
-logoText = "Zzo"
+logoText = "Park"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "hugo generated static website."
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -13,7 +13,7 @@ notAllowedTypesInHomeSidebar = ["about", "archive", "showcase", "publication", "
 notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
 notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
 
-viewportSize = "normal" # widest, wider, wide, normal, narrow
+viewportSize = "wide" # widest, wider, wide, normal, narrow
 enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 enablePinnedPosts = true
@@ -23,7 +23,7 @@ minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
 homeHeaderType = "text" # text, img, slide, typewriter
 
 # menu
-showMobileMenuTerms = ["tags", "categories", "series"]
+showMobileMenuTerms = ["tags", "categories", "series"]#["tags", "categories", "series"]
 
 # body
 enableBreadcrumb = true
@@ -42,33 +42,33 @@ talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
+myname = "Park"
+email = "ricetheifaus@gmail.com"
 whoami = "Web Developer"
 bioImageUrl = ""
 useGravatar = false
 location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+organization = "HarkStudio"
+link = "https://clever-wright-be4237.netlify.app/en/"
 
 # sidebar
 enableBio = true
 enableBioImage = true
 enableSidebar = true
 enableSidebarTags = true
-enableSidebarSeries = true
-enableSidebarCategories = true
-enableHomeSidebarTitles = true
-enableListSidebarTitles = true
+enableSidebarSeries = false
+enableSidebarCategories = false
+enableHomeSidebarTitles = false
+enableListSidebarTitles = false
 enableToc = true
 hideToc = false
 tocFolding = true
 tocPosition = "inner" # inner, outer
 enableTocSwitch = true
 itemsPerCategory = 5
-sidebarPosition = "right"
+sidebarPosition = "left"
 tocLevels = ["h2", "h3", "h4"]
-enableSidebarPostsByOrder = false
+enableSidebarPostsByOrder = true
 
 # footer
 showPoweredBy = true
@@ -143,11 +143,11 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:ricetheifaus@gmail.com"
   phone = ""
   facebook = "http://example.org/"
   twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  github = "https://github.com/ricethief"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
@@ -175,10 +175,10 @@ commento = false
   google-scholar = ""
 
 [donationOptions]
-  enable = false
+  enable = true
   alipay = "" 
   wechat = ""
-  paypal = ""
+  paypal = "testing"
   patreon = ""
 
 # possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line"]
