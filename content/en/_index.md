@@ -2,13 +2,16 @@
 header:
   - type: typewriter
     methods:
-      - typeString: Hello world!
+      - typeString: Hello Welcome!
       - pauseFor: 2500
       - deleteAll: true
-      - typeString: Strings can be removed
+      - typeString: I am a <strong>Developer 🔨</strong>
       - pauseFor: 2500
-      - deleteChars: 7
-      - typeString: <strong>altered!</strong>
+      - deleteChars: 12
+      - typeString: <strong>Designer 🎨</strong>
+      - pauseFor: 2500
+      - deleteChars: 17
+      - typeString: will work for <strong>you</strong>!
       - pauseFor: 2500
     options:
       loop: true
@@ -16,8 +19,8 @@ header:
     height: 190
     paddingX: 50
     align: center
-    fontSize: 44
-    fontColor: yellow
+    fontSize: 55
+    fontColor: 
     
   - type: text
     height: 200
@@ -25,9 +28,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - Studio Hark
     subtitle:
-      - The world’s fastest framework for building websites
+      - personal blog
     titleColor: 
     titleShadow: true
     titleFontSize: 44

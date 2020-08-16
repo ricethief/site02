@@ -1,5 +1,5 @@
 baseURL = ""
-title = "RiceTheif"
+title = "my blog"
 theme = "zzo"
 
 defaultContentLanguage = "en"
@@ -12,7 +12,7 @@ buildFuture = true
 copyright = "&copy;{year}, All Rights Reserved"
 timeout = 10000
 enableEmoji = true
-paginate = 13
+paginate = 5
 rssLimit = 100
 
 enableGitInfo = false
